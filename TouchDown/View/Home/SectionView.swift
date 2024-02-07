@@ -21,7 +21,7 @@ struct SectionView: View {
             Spacer()
         }
         .background(colorGray.clipShape(RoundedRectangle(cornerRadius: 12)))
-        .frame(width: 85, height: 240)
+        .frame(width: 85)
     }
 }
 
