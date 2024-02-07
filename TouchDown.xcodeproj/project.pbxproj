@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		9E0AF15B2B7396640064928E /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0AF15A2B7396640064928E /* NavigationBarView.swift */; };
 		9E0AF15D2B7397740064928E /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0AF15C2B7397740064928E /* LogoView.swift */; };
+		9E0AF15F2B739C2D0064928E /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0AF15E2B739C2D0064928E /* PlayerModel.swift */; };
+		9E0AF1612B739C720064928E /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0AF1602B739C720064928E /* CodableBundleExtension.swift */; };
+		9E0AF1632B73A6E90064928E /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0AF1622B73A6E90064928E /* FeaturedItemView.swift */; };
+		9E0AF1652B73A7870064928E /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0AF1642B73A7870064928E /* FeaturedTabView.swift */; };
 		9EFEE6FC2B6BCD6900C321F5 /* TouchDownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFEE6FB2B6BCD6900C321F5 /* TouchDownApp.swift */; };
 		9EFEE6FE2B6BCD6900C321F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFEE6FD2B6BCD6900C321F5 /* ContentView.swift */; };
 		9EFEE7002B6BCD6A00C321F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EFEE6FF2B6BCD6A00C321F5 /* Assets.xcassets */; };
@@ -24,6 +28,10 @@
 /* Begin PBXFileReference section */
 		9E0AF15A2B7396640064928E /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		9E0AF15C2B7397740064928E /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		9E0AF15E2B739C2D0064928E /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		9E0AF1602B739C720064928E /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		9E0AF1622B73A6E90064928E /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
+		9E0AF1642B73A7870064928E /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 		9EFEE6F82B6BCD6900C321F5 /* TouchDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EFEE6FB2B6BCD6900C321F5 /* TouchDownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchDownApp.swift; sourceTree = "<group>"; };
 		9EFEE6FD2B6BCD6900C321F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -112,6 +120,7 @@
 		9EFEE7132B6BCE4400C321F5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9E0AF15E2B739C2D0064928E /* PlayerModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -119,6 +128,7 @@
 		9EFEE7142B6BCE4500C321F5 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				9E0AF1602B739C720064928E /* CodableBundleExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -146,6 +156,8 @@
 				9EFEE71C2B6BD1B700C321F5 /* FooterView.swift */,
 				9E0AF15A2B7396640064928E /* NavigationBarView.swift */,
 				9E0AF15C2B7397740064928E /* LogoView.swift */,
+				9E0AF1622B73A6E90064928E /* FeaturedItemView.swift */,
+				9E0AF1642B73A7870064928E /* FeaturedTabView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -231,12 +243,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E0AF1612B739C720064928E /* CodableBundleExtension.swift in Sources */,
 				9EFEE6FE2B6BCD6900C321F5 /* ContentView.swift in Sources */,
 				9E0AF15D2B7397740064928E /* LogoView.swift in Sources */,
 				9EFEE71D2B6BD1B700C321F5 /* FooterView.swift in Sources */,
+				9E0AF1632B73A6E90064928E /* FeaturedItemView.swift in Sources */,
 				9EFEE6FC2B6BCD6900C321F5 /* TouchDownApp.swift in Sources */,
 				9EFEE71B2B6BD0F200C321F5 /* Constant.swift in Sources */,
 				9E0AF15B2B7396640064928E /* NavigationBarView.swift in Sources */,
+				9E0AF1652B73A7870064928E /* FeaturedTabView.swift in Sources */,
+				9E0AF15F2B739C2D0064928E /* PlayerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
